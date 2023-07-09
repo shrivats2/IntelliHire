@@ -1,0 +1,42 @@
+/* Style the form container */
+.candidate-form{
+    width: 300px;
+    margin: 0 auto;
+  }
+  h1{
+    text-align: center;
+  }
+  
+  /* Style the form labels */
+  .candidate-label{
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+  }
+  
+  /* Style the form inputs */
+  .candidate-input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Style the submit button */
+  .candidate-submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Hover effect on the submit button */
+  .candidate-submit:hover {
+    background-color: #45a049;
+  }
+  

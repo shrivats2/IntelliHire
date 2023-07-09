@@ -1,0 +1,59 @@
+.Table{
+    width: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin:30px;
+}
+.css-11xur9t-MuiPaper-root-MuiTableContainer-root{
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.87);
+    -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 4px;
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+    width: 80%;
+    overflow-x: auto;
+}
+.MuiTableRow-root > * {
+    padding: 10px;
+  }
+  
+  .MuiTableRow-root.MuiTableRow-head > * {
+    font-weight: bold !important;
+  }
+  
+  .Table td,
+  th {
+    border: none !important;
+  }
+  
+  .Table:first-child {
+    border-radius: 0.7rem !important;
+  }
+  .status {
+    padding: 8px;
+    border-radius: 9px;
+  }
+  
+  .Details {
+    color: #00b5ff !important;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .Table {
+      width: 170%;
+      margin-top: 2rem;
+    }
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .Table{
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: auto;
+    }
+  }

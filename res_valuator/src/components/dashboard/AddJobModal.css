@@ -1,0 +1,119 @@
+/* AddJobModal.css */
+.react-responsive-modal-modal {
+    margin-top: 100px;
+}
+
+.add-job-modal {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 550px;
+}
+
+.add-job-modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+    width: 500px;
+    height: 500px;
+}
+
+.add-job-modal-content h2 {
+    margin-bottom: 20px;
+}
+
+.add-job-modal-content .form-group {
+    margin-bottom: 15px;
+}
+
+.add-job-modal-content label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.add-job-modal-content textarea {
+    width: 100%;
+}
+
+.add-job-modal-content button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.add-job-modal-content button:hover {
+    background-color: #0056b3;
+}
+
+.add-job-modal-content a {
+    color: #007bff;
+    text-decoration: none;
+    margin-top: 10px;
+    display: block;
+}
+
+.add-job-modal-content a:hover {
+    text-decoration: underline;
+}
+
+.slider {
+    width: 90%;
+}
+
+@media screen and (max-width: 720px) {
+    .react-responsive-modal-modal {
+        display: block;
+    }
+}
+
+.copy-button {
+    background-color: #ff0083;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    height: auto;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: auto;
+}
+
+.copy-button:hover {
+    background-color: #F082AC;
+}
+
+.modal-a {
+    color: blue;
+    border-style: solid;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.modal-link {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: baseline;
+}
