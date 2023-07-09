@@ -7,7 +7,7 @@ Development in progress
 ## Developer Quickstart
 Clone this repository:
 
-`https://github.com/AyushModi123/Intelli-Hire.git`
+`https://github.com/shrivats2/IntelliHire.git`
 
 Setup a virtual environment using:
 
